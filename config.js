@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://ogunote.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'ogunote',
+  subtitle: 'ここでは、会社テックブログ寄稿に至らなかった雑メモ・勉強ノート・備忘録を溜めていく。',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -15,29 +15,31 @@ module.exports = {
       label: 'Articles',
       path: '/'
     },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+    // {
+    //   label: 'About me',
+    //   path: '/pages/about'
+    // },
+    // {
+    //   label: 'Contact me',
+    //   path: '/pages/contacts'
+    // }
   ],
   author: {
-    name: 'John Doe',
+    name: 'おぐぐ / ogugu',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Yahoo! JAPAN のエンジニア。 Java / Node.js でバックエンド、 React.js でフロントエンド、ときどき python で機械学習。' +
+        'ここでは、会社テックブログ寄稿に至らなかった雑メモ・勉強ノート・備忘録を溜めていく。',
+    // eng: Web Developer in Yahoo! JAPAN. Backend with Java or Node, Frontend in React.js, sometimes ML in python.
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'e.cos.isin@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: 'ogugugugu',
+      github: 'ogugu9',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
